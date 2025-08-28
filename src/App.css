@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.container{
+    background-color: antiquewhite;
+    margin: 0;
+    padding-top: 10px;
+    z-index: -1;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: antiquewhite;
+
+}
+.location input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2px;
+    background-color: antiquewhite;
+
+}
+.location button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.mainpage{
+    margin: 20px;
+}
+.weather{
+    color: black;
+}
+.intro{
+    background: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    height: 200px;
+    font-family: "National Park", sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.001);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.block1{
+    min-height: fit-content;
+}
+.temp{
+    font-size: xxx-large;
+}
+.temp span{
+    font-size: x-large;
+}
+.city{
+    font-size: xx-large;
+    font-weight: 500;   
+}
+.city span img{
+    padding: 0;
+    margin: 0 10px;
+    width: 40px;
+}
+.displayflex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.air{
+    height: fit-content;
+    width: calc(100% - 20px);
+    background: rgba(255, 255, 255, 0.5);
+    font-family: "National Park", sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.001);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.air table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+@media (min-width: 600px) {
+    .air{
+        height: 200px;
+        width: calc(200px - 20px);
+        background: rgba(255, 255, 255, 0.5);
+        font-family: "National Park", sans-serif;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.001);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+.foot{
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    font-weight: 400;
+    font-family: "National Park", sans-serif;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid red;
+}
